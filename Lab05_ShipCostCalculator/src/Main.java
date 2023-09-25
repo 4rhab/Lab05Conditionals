@@ -10,7 +10,7 @@ public class Main {
             double priceItem = in.nextDouble();
             double shippingCost;
 
-            if (itemPrice >= 100) {
+            if (priceItem >= 100) {
                 shippingCost = 0;
             } else {
                 shippingCost = 0.02 * priceItem;
