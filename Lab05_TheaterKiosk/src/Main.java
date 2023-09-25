@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter your age: ");
+        System.out.println("Enter your age: ");
 
         if (in.hasNextInt()) {
             int age = in.nextInt();
